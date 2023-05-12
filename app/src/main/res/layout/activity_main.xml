@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout_mainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar_main_activity"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            android:gravity="center_horizontal"
+            app:title="Fighters"
+            app:textSize="10sp"
+            app:titleTextColor="@color/white"
+            app:titleCentered="true"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--    FrameLayout est conçu pour bloquer une zone de l'écran afin d'afficher un seul élément. En-->
+    <!--    général, FrameLayout doit être utilisé pour contenir une seule vue enfant, car il peut être-->
+    <!--    difficile d'organiser les vues enfant de manière à ce qu'elles s'adaptent à différentes tailles-->
+    <!--    d'écran sans que les enfants ne se chevauchent les uns les autres.-->
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_navigation_bar" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@color/black"
+        app:itemIconTint="@drawable/nav_item_color_selected"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/bottom_navigation_bar_menu">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>
