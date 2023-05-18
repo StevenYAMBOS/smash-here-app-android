@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fighter_cardView"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="100dp"
+    android:backgroundTint="@color/grey"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    app:cardCornerRadius="10dp"
+    android:layout_gravity="center_horizontal"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_gravity="center"
-        android:gravity="center">
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/alph_cardView"
-            android:layout_width="300dp"
-            android:layout_height="100dp"
-            android:backgroundTint="@color/grey">
-
-            <androidx.constraintlayout.widget.ConstraintLayout
+            <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <androidx.appcompat.widget.AppCompatImageButton
-                    android:src="@drawable/settings_icon"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/fighter_cardView_image"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bowser_jr">
+                </androidx.appcompat.widget.AppCompatImageView>
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/fighter_cardView_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    >
-                </androidx.appcompat.widget.AppCompatImageButton>
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </androidx.cardview.widget.CardView>
-    </androidx.appcompat.widget.LinearLayoutCompat>
+                    android:layout_gravity="center_vertical"
+                    android:text="test"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:shadowColor="@color/black"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="1">
+                </androidx.appcompat.widget.AppCompatTextView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.card.MaterialCardView>
 
 
 
-</androidx.core.widget.NestedScrollView>

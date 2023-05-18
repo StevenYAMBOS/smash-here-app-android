@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,22 +8,7 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:id="@+id/appBarLayout_mainActivity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar_main_activity"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/black"
-            android:gravity="center_horizontal"
-            app:title="Fighters"
-            app:textSize="10sp"
-            app:titleTextColor="@color/white"
-            app:titleCentered="true"/>
-    </com.google.android.material.appbar.AppBarLayout>
+    <include layout="@layout/searchview_fighters" />
 
     <!--    FrameLayout est conçu pour bloquer une zone de l'écran afin d'afficher un seul élément. En-->
     <!--    général, FrameLayout doit être utilisé pour contenir une seule vue enfant, car il peut être-->
@@ -31,8 +17,11 @@
     <FrameLayout
         android:id="@+id/framelayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/bottom_navigation_bar" />
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation_bar"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation_bar"
