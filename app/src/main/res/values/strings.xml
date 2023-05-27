@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Smash Here App</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ATs_definition">
+        An advanced technique is a set of complex actions that requires technical skill and benefits a character\'s overall gameplay.
+    </string>
+    <string name="glossary_btn">Glossary</string>
+
+<!--    Advanced Techniques TITLES-->
+    <string name="b_reverse">B Reversing</string>
 </resources>

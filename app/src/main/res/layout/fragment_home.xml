@@ -23,4 +23,6 @@
             app:titleCentered="true"/>
     </com.google.android.material.appbar.AppBarLayout>
 
+    <include layout="@layout/searchview_fighters" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>

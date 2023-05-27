@@ -8,8 +8,6 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-    <include layout="@layout/searchview_fighters" />
-
     <!--    FrameLayout est conçu pour bloquer une zone de l'écran afin d'afficher un seul élément. En-->
     <!--    général, FrameLayout doit être utilisé pour contenir une seule vue enfant, car il peut être-->
     <!--    difficile d'organiser les vues enfant de manière à ce qu'elles s'adaptent à différentes tailles-->

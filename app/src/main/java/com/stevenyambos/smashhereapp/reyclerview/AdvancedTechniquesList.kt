@@ -1,4 +1,4 @@
-package com.stevenyambos.smashhereapp
+package com.stevenyambos.smashhereapp.reyclerview
 
 /*
 En Kotlin, une "data class" est une classe spéciale qui est principalement utilisée
@@ -10,4 +10,7 @@ des méthodes et des propriétés supplémentaires. Cependant, il est générale
 garder ces classes simples et de les utiliser principalement pour stocker des données.
  */
 
-data class FightersList(val name: String, val image: Int)
+data class AdvancedTechniquesList(
+    var ATsImage: Int,
+    var ATsTitle : String
+)
