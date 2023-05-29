@@ -13,10 +13,13 @@
         android:theme="@style/Theme.SmashHereApp"
         tools:targetApi="31">
         <activity
-            android:name=".screens.AdvancedTechniqueDetailedScreen"
+            android:name=".screens.SettingsScreen"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".screens.AdvancedTechniquesScreen"
+            android:exported="false" />
+        <activity
+            android:name=".screens.HomeScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

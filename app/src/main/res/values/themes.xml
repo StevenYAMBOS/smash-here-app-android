@@ -12,11 +12,5 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-
-    </style>
-
-<!--    Couleur du bouton de retour dans l'écran Advanced Techniques Detailed Screen (Recycler view page)-->
-    <style name="toolbar_ATsDetailedScreen" parent="Widget.AppCompat.Toolbar">
-        <item name="android:textColorSecondary">@color/white</item>
     </style>
 </resources>
