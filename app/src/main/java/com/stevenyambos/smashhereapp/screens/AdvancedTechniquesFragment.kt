@@ -11,7 +11,6 @@ import com.stevenyambos.smashhereapp.R
 import com.stevenyambos.smashhereapp.reyclerview.AdvancedTechniquesList
 import com.stevenyambos.smashhereapp.reyclerview.AdvancedTechniquesListAdapter
 
-
 class AdvancedTechniquesFragment : Fragment() {
 
     private lateinit var adapter : AdvancedTechniquesListAdapter
@@ -45,6 +44,8 @@ class AdvancedTechniquesFragment : Fragment() {
     private fun dataInitialize() {
         AdvancedTechniquesList = arrayListOf<AdvancedTechniquesList>()
 
+
+//        Images des cardViews (initialisation)
         ATsImageID = arrayOf(
             R.drawable.breverse,
             R.drawable.breverse,
@@ -56,19 +57,70 @@ class AdvancedTechniquesFragment : Fragment() {
             R.drawable.breverse,
             R.drawable.breverse,
             R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
+            R.drawable.breverse,
         )
 
+//        Textes des cardViews (initialisation)
         ATsTitle = arrayOf(
+            getString(R.string.attack_cancel_short_hop_aerial),
             getString(R.string.b_reverse),
-            getString(R.string.b_reverse),
-            getString(R.string.b_reverse),
-            getString(R.string.b_reverse),
-            getString(R.string.b_reverse),
-            getString(R.string.b_reverse),
-            getString(R.string.b_reverse),
-            getString(R.string.b_reverse),
-            getString(R.string.b_reverse),
-            getString(R.string.b_reverse)
+            getString(R.string.bat_droping),
+            getString(R.string.boost_grab),
+            getString(R.string.c_bouncing),
+            getString(R.string.coil),
+            getString(R.string.dash_cancel),
+            getString(R.string.dash_dancing),
+            getString(R.string.directional_influence),
+            getString(R.string.drop_cancel),
+            getString(R.string.edge_dashing),
+            getString(R.string.edge_hoping),
+            getString(R.string.fox_trotting),
+            getString(R.string.hilldash),
+            getString(R.string.jab_cancel),
+            getString(R.string.jab_reset),
+            getString(R.string.jump_cancel_throw),
+            getString(R.string.jump_cancelling),
+            getString(R.string.ledge_cancelling),
+            getString(R.string.lock),
+            getString(R.string.mindgame),
+            getString(R.string.powershield),
+            getString(R.string.reverse_aerial_rush),
+            getString(R.string.shield_stop),
+            getString(R.string.short_hop_air_airdodge),
+            getString(R.string.slingshot),
+            getString(R.string.smash_directional_influence),
+            getString(R.string.stage_humping),
+            getString(R.string.sticky_edge_jump),
+            getString(R.string.taunt_cancelling),
+            getString(R.string.teching),
+            getString(R.string.tech_chasing),
+            getString(R.string.wall_jump_cancel_ledge_grab),
+            getString(R.string.wavedash),
+            getString(R.string.waveland),
         )
 
         for (i in ATsImageID.indices) {
@@ -77,4 +129,8 @@ class AdvancedTechniquesFragment : Fragment() {
         }
     }
 
+//        Création des vues
+
+
 }
+

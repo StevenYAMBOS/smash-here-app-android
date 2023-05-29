@@ -1,11 +1,46 @@
 <resources>
-    <string name="app_name">Smash Here App</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="ATs_definition">
-        An advanced technique is a set of complex actions that requires technical skill and benefits a character\'s overall gameplay.
-    </string>
-    <string name="glossary_btn">Glossary</string>
 
-<!--    Advanced Techniques TITLES-->
+    <!--    Smash Here Title-->
+    <string name="app_name">Smash Here</string>
+
+    <!--    Advanced Techniques TITLES-->
+    <string name="ATs_definition">An advanced technique is a set of complex actions that requires technical skill and benefits a character\'s overall gameplay.</string>
+    <string name="glossary_btn">Glossary</string>
+    <string name="attack_cancel_short_hop_aerial">Attack Cancel Short Hop Aerial</string>
     <string name="b_reverse">B Reversing</string>
+    <string name="bat_droping">Bat Dropping</string>
+    <string name="boost_grab">Boost Grab</string>
+    <string name="c_bouncing">C-Bouncing</string>
+    <string name="coil">COIL</string>
+    <string name="dash_cancel">Dash Cancel</string>
+    <string name="dash_dancing">Dash Dancing</string>
+    <string name="directional_influence">Directional influence</string>
+    <string name="drop_cancel">Drop Cancel</string>
+    <string name="edge_dashing">Edge Dashing</string>
+    <string name="edge_hoping">Edge Hopping</string>
+    <string name="fox_trotting">Fox-Trotting</string>
+    <string name="hilldash">Hilldash</string>
+    <string name="jab_cancel">Jab Cancel</string>
+    <string name="jab_reset">Jab Reset</string>
+    <string name="jump_cancel_throw">Jump Cancel Throw</string>
+    <string name="jump_cancelling">Jump Cancelling</string>
+    <string name="ledge_cancelling">Ledge Cancelling</string>
+    <string name="lock">Lock</string>
+    <string name="mindgame">Mindgame</string>
+    <string name="powershield">Powershield</string>
+    <string name="reverse_aerial_rush">Reverse Aerial Rush</string>
+    <string name="shield_stop">Shield Stop</string>
+    <string name="short_hop_air_airdodge">Short Hop Air Dodge</string>
+    <string name="slingshot">Slingshot</string>
+    <string name="smash_directional_influence">Smash Directional Influence</string>
+    <string name="stage_humping">Stage Humping</string>
+    <string name="sticky_edge_jump">Sticky Edge Jump</string>
+    <string name="taunt_cancelling">Taunt Cancelling</string>
+    <string name="teching">Teching</string>
+    <string name="tech_chasing">Tech chasing</string>
+    <string name="wall_jump_cancel_ledge_grab">Wall Jump Cancel Ledge Grab</string>
+    <string name="wavedash">Wavedash</string>
+    <string name="waveland">Waveland</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
