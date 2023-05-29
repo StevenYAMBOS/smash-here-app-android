@@ -9,12 +9,17 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.imageview.ShapeableImageView
 import com.stevenyambos.smashhereapp.R
 
-class FightersAdapter(private val fightersList: ArrayList<FightersModel>):
+class FightersAdapter(private var fightersList: ArrayList<FightersModel>):
 RecyclerView.Adapter<FightersAdapter.ViewHolder>() {
 
-    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val fighterImage: ImageView = itemView.findViewById(R.id.image_fighter_model)
         val fighterName: TextView = itemView.findViewById(R.id.text_fighter_model)
+    }
+
+    fun setFilteredFightersList(fightersList: ArrayList<FightersModel>) {
+        this.fightersList = fightersList
+        notifyDataSetChanged()
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

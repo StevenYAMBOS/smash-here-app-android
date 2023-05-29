@@ -3,12 +3,15 @@ package com.stevenyambos.smashhereapp.screens
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.stevenyambos.smashhereapp.R
 import com.stevenyambos.smashhereapp.reyclerview.FightersAdapter
 import com.stevenyambos.smashhereapp.reyclerview.FightersModel
+import java.util.Locale
 
 /* Faire attention lors des import car il y a des éléments "androidx" avec le même nom que d'autres
  éléments, choisir celui approprié. */
@@ -18,6 +21,7 @@ class HomeScreen : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var fighterList: ArrayList<FightersModel>
     private lateinit var fightersAdapter: FightersAdapter
+    private lateinit var searchView: SearchView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,9 +55,43 @@ class HomeScreen : AppCompatActivity() {
         fighterList = ArrayList()
         fightersAdapter = FightersAdapter(fighterList)
         recyclerView.adapter = fightersAdapter
+        searchView = findViewById(R.id.searchview_fighters)
         fighterListItem()
 
+        searchView.setOnQueryTextListener(object: SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                return false
+            }
+
+            override fun onQueryTextChange(newText: String?): Boolean {
+                filterFightersList(newText)
+                return true
+            }
+
+        })
+
     } // Fin onCreate
+
+    private fun filterFightersList(query: String?) {
+        val filteredList = ArrayList<FightersModel>()
+
+        if (query != null) {
+            val lowercaseQuery = query.toLowerCase(Locale.ROOT)
+            for (characters in fighterList) {
+                val lowercaseName = characters.name.toLowerCase(Locale.ROOT)
+                if (lowercaseName.contains(lowercaseQuery)) {
+                    filteredList.add(characters)
+                }
+            }
+        }
+
+        if (filteredList.isEmpty()) {
+            Toast.makeText(this, "Aucun personnage trouvé", Toast.LENGTH_SHORT).show()
+        } else {
+            fightersAdapter.setFilteredFightersList(filteredList)
+        }
+    }
+
 
     private fun fighterListItem() {
         fighterList.add(FightersModel(R.drawable.alph, getString(R.string.alph)))
