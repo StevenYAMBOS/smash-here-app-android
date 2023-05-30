@@ -3,17 +3,17 @@
 
     <item
         android:id="@+id/nav_item_home"
-        android:icon="@drawable/ic_outline_home"
+        android:icon="@drawable/home_icon"
         android:title="Home" />
 
      <item
         android:id="@+id/nav_item_advanced_techniques"
-        android:icon="@drawable/ic_advanced_techniques_outline"
+        android:icon="@drawable/advanced_techniques_icon"
         android:title="Avdanced techniques" />
 
      <item
         android:id="@+id/nav_item_settings"
-        android:icon="@drawable/ic_outline_settings"
+        android:icon="@drawable/settings_icon"
         android:title="Settings" />
 
 

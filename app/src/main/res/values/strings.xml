@@ -5,6 +5,12 @@
     <string name="toolbar_HomeScreen">Fighters</string>
     <string name="toolbar_ATsScreen">Advanced Techniques</string>
     <string name="toolbar_SettingsScreen">Settings</string>
+    <string name="searchView_text">Search for a Smash Bros character...</string>
+
+    <!--    Page Settings-->
+    <string name="languages_title_section">Languages</string>
+    <string name="themes_title_section">Themes</string>
+    <string name="about_title_section">About</string>
 
     <!--    Fighters-->
     <string name="alph">Alph</string>

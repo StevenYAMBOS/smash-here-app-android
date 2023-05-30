@@ -8,6 +8,7 @@
     android:backgroundTint="@color/white"
     android:paddingBottom="50dp"
     android:outlineProvider="none">
+<!--  android:outlineProvider="none"  Supprime les bordures du cardVew-->
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"

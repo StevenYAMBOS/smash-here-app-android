@@ -43,7 +43,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/appBarLayout_HomeScreen"
         app:queryBackground="@android:color/transparent"
-        app:queryHint="Search for a character name...">
+        app:queryHint="@string/searchView_text">
     </androidx.appcompat.widget.SearchView>
 
     <androidx.recyclerview.widget.RecyclerView
