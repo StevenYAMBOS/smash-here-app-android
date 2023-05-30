@@ -19,12 +19,15 @@
             android:id="@+id/toolbar_main_activity"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/black"
-            android:gravity="center_horizontal"
-            app:title="Fighters"
-            android:textAlignment="center"
-            app:titleTextColor="@color/white"
-            app:titleCentered="true">
+            android:background="@color/black">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/toolbar_HomeScreen"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 

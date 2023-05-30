@@ -33,10 +33,6 @@ class HomeScreen : AppCompatActivity() {
         // Bottom Nav View
         botttom_navigation_bar.setOnItemSelectedListener { item ->
             when (item.itemId) {
-                R.id.nav_item_home -> {
-                    startActivity(Intent(this, HomeScreen::class.java))
-                    true
-                }
                 R.id.nav_item_advanced_techniques -> {
                     startActivity(Intent(this, AdvancedTechniquesScreen::class.java))
                     true

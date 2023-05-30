@@ -102,7 +102,7 @@
     <!--    Advanced Techniques TITLES-->
     <string name="ATs_definition">An advanced technique is a set of complex actions that requires technical skill and benefits a character\'s overall gameplay.</string>
     <string name="glossary_btn">Glossary</string>
-    <string name="attack_cancel_short_hop_aerial">Attack Cancel Short Hop Aerial</string>
+    <string name="attack_cancel_short_hop_aerial">Attack Cancel Short \n Hop Aerial</string>
     <string name="b_reverse">B Reversing</string>
     <string name="bat_droping">Bat Dropping</string>
     <string name="boost_grab">Boost Grab</string>
@@ -128,13 +128,13 @@
     <string name="shield_stop">Shield Stop</string>
     <string name="short_hop_air_airdodge">Short Hop Air Dodge</string>
     <string name="slingshot">Slingshot</string>
-    <string name="smash_directional_influence">Smash Directional Influence</string>
+    <string name="smash_directional_influence">Smash \n Directional Influence</string>
     <string name="stage_humping">Stage Humping</string>
     <string name="sticky_edge_jump">Sticky Edge Jump</string>
     <string name="taunt_cancelling">Taunt Cancelling</string>
     <string name="teching">Teching</string>
     <string name="tech_chasing">Tech chasing</string>
-    <string name="wall_jump_cancel_ledge_grab">Wall Jump Cancel Ledge Grab</string>
+    <string name="wall_jump_cancel_ledge_grab">Wall Jump Cancel \n Ledge Grab</string>
     <string name="wavedash">Wavedash</string>
     <string name="waveland">Waveland</string>
     <!-- TODO: Remove or change this placeholder text -->
