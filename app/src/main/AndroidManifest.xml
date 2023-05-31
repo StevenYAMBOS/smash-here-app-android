@@ -13,13 +13,22 @@
         android:theme="@style/Theme.SmashHereApp"
         tools:targetApi="31">
         <activity
+            android:name=".screens.settings.AboutScreen"
+            android:exported="false" />
+        <activity
+            android:name=".screens.settings.ThemesScreen"
+            android:exported="false" />
+        <activity
+            android:name=".screens.settings.LanguagesSceen"
+            android:exported="false" />
+        <activity
             android:name=".screens.SettingsScreen"
             android:exported="true"
-            android:parentActivityName=".screens.HomeScreen"/>
+            android:parentActivityName=".screens.HomeScreen" />
         <activity
             android:name=".screens.AdvancedTechniquesScreen"
             android:exported="true"
-            android:parentActivityName=".screens.HomeScreen"/>
+            android:parentActivityName=".screens.HomeScreen" />
         <activity
             android:name=".screens.HomeScreen"
             android:exported="true">

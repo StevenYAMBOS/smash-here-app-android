@@ -75,7 +75,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:background="?android:attr/windowBackground"
         app:itemBackground="@color/black"
-        app:itemIconTint="@drawable/nav_item_color_selected"
+        app:itemIconTint="@color/white"
         app:labelVisibilityMode="unlabeled"
         app:menu="@menu/bottom_navigation_bar_menu">
     </com.google.android.material.bottomnavigation.BottomNavigationView>

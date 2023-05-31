@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".screens.SettingsScreen">
 
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout_SettingsScreen"
         android:layout_width="match_parent"
@@ -60,7 +65,7 @@
                 android:text="@string/languages_title_section"
                 android:textColor="@color/black"
                 android:textSize="18sp"/>
-            <ImageButton
+            <ImageView
                 android:id="@+id/languages_arrowIcon"
                 android:background="@drawable/round_arrow_forward"
                 android:layout_width="30dp"
@@ -113,7 +118,7 @@
                 android:text="@string/themes_title_section"
                 android:textColor="@color/black"
                 android:textSize="18sp"/>
-            <ImageButton
+            <ImageView
                 android:id="@+id/themes_arrowIcon"
                 android:background="@drawable/round_arrow_forward"
                 android:layout_width="30dp"
@@ -166,7 +171,7 @@
                 android:text="@string/about_title_section"
                 android:textColor="@color/black"
                 android:textSize="18sp"/>
-            <ImageButton
+            <ImageView
                 android:id="@+id/about_arrowIcon"
                 android:background="@drawable/round_arrow_forward"
                 android:layout_width="30dp"
