@@ -1,5 +1,9 @@
 # Smash Here
 
+![Cover](https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/Home.png)
+![Cover](https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/ATs.png)
+![Cover](https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/Settings.png)
+
 Smash Here est une application E-sport dédiée aux joueurs souhaitant améliorer leurs compétences sur Super Smash Bros Ultimate. Elle regroupe tous les conseils nécessaires pour comprendre le jeu, des astuces pour affronter chaque personnage, ainsi que des techniques avancées pour maîtriser pleinement son personnage. Chaque personnage du jeu dispose d'une fiche technique permettant d'apprendre à affronter tous les autres personnages.
 
 L'application est développée en Kotlin sur Android Studio. Les fonctionnalités développées à ce jour comprennent :
