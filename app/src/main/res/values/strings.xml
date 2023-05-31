@@ -6,6 +6,7 @@
     <string name="toolbar_ATsScreen">Advanced Techniques</string>
     <string name="toolbar_SettingsScreen">Settings</string>
     <string name="searchView_text">Search for a Smash Bros character...</string>
+    <string name="app_version">Version : 1.0.0</string>
 
     <!--    Page Settings-->
     <string name="languages_title_section">Languages</string>
