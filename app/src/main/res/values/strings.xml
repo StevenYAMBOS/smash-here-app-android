@@ -7,6 +7,10 @@
     <string name="toolbar_SettingsScreen">Settings</string>
     <string name="searchView_text">Search for a Smash Bros character...</string>
     <string name="app_version">Version : 1.0.0</string>
+    <string name="neutral_state">Neutral</string>
+    <string name="advantage_state">Advantage</string>
+    <string name="desadvantage_state">Desadvantage</string>
+    <string name="match_ups">Match Ups</string>
 
     <!--    Page Settings-->
     <string name="languages_title_section">Languages</string>
