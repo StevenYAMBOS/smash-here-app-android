@@ -1,15 +1,15 @@
 # Smash Here
 
 <a href="https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/Home.png">
-    <img src="https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/Home.png" alt="Page d'accueil" height="200px">
+    <img src="https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/Home.png" alt="Page d'accueil" height="400px">
   </a>
   
   <a href="https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/ATs.png">
-    <img src="https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/ATs.png" alt="Techniques avancées" height="200px">
+    <img src="https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/ATs.png" alt="Techniques avancées" height="400px">
   </a>
   
   <a href="https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/Settings.png">
-    <img src="https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/Settings.png" alt="Paramètres" height="200px">
+    <img src="https://github.com/StevenYAMBOS/smash-here-app-android/blob/main/img/Settings.png" alt="Paramètres" height="400px">
   </a>
 
 ## C'est quoi Smash Here ?
