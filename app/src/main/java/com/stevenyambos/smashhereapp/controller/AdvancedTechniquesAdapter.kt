@@ -1,4 +1,4 @@
-package com.stevenyambos.smashhereapp.reyclerview
+package com.stevenyambos.smashhereapp.controller
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.stevenyambos.smashhereapp.R
+import com.stevenyambos.smashhereapp.model.AdvancedTechniquesModel
 
 
 class AdvancedTechniquesAdapter(private var ATsList : List<AdvancedTechniquesModel>) : RecyclerView.Adapter<AdvancedTechniquesAdapter.ViewHolder>() {
@@ -24,7 +25,7 @@ class AdvancedTechniquesAdapter(private var ATsList : List<AdvancedTechniquesMod
         position: Int
     ) {
         val currentItem = ATsList[position]
-        holder.ATsImage.setImageResource(currentItem.image)
+        holder.ATsImage.setImageResource(currentItem.gif)
         holder.ATsText.text = currentItem.name
     }
 

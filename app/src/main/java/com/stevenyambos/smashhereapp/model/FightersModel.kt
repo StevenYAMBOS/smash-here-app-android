@@ -1,4 +1,4 @@
-package com.stevenyambos.smashhereapp.reyclerview
+package com.stevenyambos.smashhereapp.model
 
 data class FightersModel(
     var image: Int,

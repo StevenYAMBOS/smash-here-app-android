@@ -3,15 +3,12 @@ package com.stevenyambos.smashhereapp.screens
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.stevenyambos.smashhereapp.R
-import com.stevenyambos.smashhereapp.reyclerview.AdvancedTechniquesAdapter
-import com.stevenyambos.smashhereapp.reyclerview.AdvancedTechniquesModel
-import com.stevenyambos.smashhereapp.reyclerview.FightersAdapter
-import com.stevenyambos.smashhereapp.reyclerview.FightersModel
+import com.stevenyambos.smashhereapp.controller.AdvancedTechniquesAdapter
+import com.stevenyambos.smashhereapp.model.AdvancedTechniquesModel
 
 class AdvancedTechniquesScreen : AppCompatActivity() {
 

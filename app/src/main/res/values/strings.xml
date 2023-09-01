@@ -11,6 +11,10 @@
     <string name="advantage_state">Advantage</string>
     <string name="desadvantage_state">Desadvantage</string>
     <string name="match_ups">Match Ups</string>
+<!--    Icons-->
+    <string name="home_icon">Home</string>
+    <string name="advanced_techniques_icon">Avdanced techniques</string>
+    <string name="settings_icon">Settings</string>
 
     <!--    Page Settings-->
     <string name="languages_title_section">Languages</string>

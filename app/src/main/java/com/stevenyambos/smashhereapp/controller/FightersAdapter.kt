@@ -1,4 +1,4 @@
-package com.stevenyambos.smashhereapp.reyclerview
+package com.stevenyambos.smashhereapp.controller
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.imageview.ShapeableImageView
 import com.stevenyambos.smashhereapp.R
+import com.stevenyambos.smashhereapp.model.FightersModel
 
 class FightersAdapter(private var fightersList: ArrayList<FightersModel>):
 RecyclerView.Adapter<FightersAdapter.ViewHolder>() {
