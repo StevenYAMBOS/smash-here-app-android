@@ -29,9 +29,9 @@ Avant de commencer le développement de l'application, j'ai organisé mon projet
 - Développement de l'application.
 
 ## Auteur
-- Steven YAMBOS - https://github.com/StevenYAMBOS
+- Portfolio - https://www.stevenyambos.fr/
 - Twitter - https://twitter.com/StevenYambos
-- LinkedIn - https://www.linkedin.com/in/steven-yambos-kotlin-7392361b2/
+- LinkedIn - https://www.linkedin.com/in/steven-yambos-7392361b2/
 
 ## Publication
 La mise en ligne de l'application est prévue pour la **fin de l'année 2023**.
